@@ -1,13 +1,13 @@
-[debug] [2024-04-25T16:24:55.488Z] ----------------------------------------------------------------------
-[debug] [2024-04-25T16:24:55.492Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\julio\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
-[debug] [2024-04-25T16:24:55.493Z] CLI Version:   13.7.3
-[debug] [2024-04-25T16:24:55.494Z] Platform:      win32
-[debug] [2024-04-25T16:24:55.494Z] Node Version:  v18.17.1
-[debug] [2024-04-25T16:24:55.495Z] Time:          Thu Apr 25 2024 13:24:55 GMT-0300 (Horário Padrão de Brasília)
-[debug] [2024-04-25T16:24:55.496Z] ----------------------------------------------------------------------
+[debug] [2024-04-25T23:49:53.708Z] ----------------------------------------------------------------------
+[debug] [2024-04-25T23:49:53.711Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\julio\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-04-25T23:49:53.711Z] CLI Version:   13.7.5
+[debug] [2024-04-25T23:49:53.711Z] Platform:      win32
+[debug] [2024-04-25T23:49:53.711Z] Node Version:  v18.17.1
+[debug] [2024-04-25T23:49:53.712Z] Time:          Thu Apr 25 2024 20:49:53 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2024-04-25T23:49:53.712Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-04-25T16:24:55.632Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-04-25T16:24:55.633Z] > authorizing via signed-in user (jcesardias2022@gmail.com)
+[debug] [2024-04-25T23:49:53.778Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-25T23:49:53.779Z] > authorizing via signed-in user (jcesardias2022@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -17,7 +17,7 @@
 
 You're about to initialize a Firebase project in this directory:
 
-  C:\projetosAngular\potifolioJulio
+  C:\projetosAngular\portfolio-julio
 
 Before we get started, keep in mind:
 
@@ -31,64 +31,16 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2024-04-25T16:25:06.811Z] Using project from CLI flag: portfolio-julio
-[debug] [2024-04-25T16:25:06.816Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio [none]
-[debug] [2024-04-25T16:25:08.527Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio 200
-[debug] [2024-04-25T16:25:08.528Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio {"projectId":"portfolio-julio","projectNumber":"77148070893","displayName":"Portfolio Julio","name":"projects/portfolio-julio","resources":{"hostingSite":"portfolio-julio"},"state":"ACTIVE","etag":"1_ed7dddde-871d-49a9-9e54-e6a1acf21267"}
-[info] i  Using project portfolio-julio (Portfolio Julio) 
+[debug] [2024-04-25T23:49:59.057Z] Using project from CLI flag: portfolio-pessoal-1
+[debug] [2024-04-25T23:49:59.060Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-pessoal-1 [none]
+[debug] [2024-04-25T23:50:00.646Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-pessoal-1 200
+[debug] [2024-04-25T23:50:00.646Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-pessoal-1 {"projectId":"portfolio-pessoal-1","projectNumber":"372155300378","displayName":"Portfolio Pessoal","name":"projects/portfolio-pessoal-1","resources":{"hostingSite":"portfolio-pessoal-1"},"state":"ACTIVE","etag":"1_b96864cb-1639-461d-a2a3-228e3957c0e1"}
+[info] i  Using project portfolio-pessoal-1 (Portfolio Pessoal) 
 [info] 
 === Hosting Setup
-[debug] [2024-04-25T16:25:08.559Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio [none]
-[debug] [2024-04-25T16:25:09.131Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio 200
-[debug] [2024-04-25T16:25:09.131Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio {"projectId":"portfolio-julio","projectNumber":"77148070893","displayName":"Portfolio Julio","name":"projects/portfolio-julio","resources":{"hostingSite":"portfolio-julio"},"state":"ACTIVE","etag":"1_ed7dddde-871d-49a9-9e54-e6a1acf21267"}
-[info] 
-[info] Your public directory is the folder (relative to your project directory) that
-[info] will contain Hosting assets to be uploaded with firebase deploy. If you
-[info] have a build process for your assets, use your build's output directory.
-[info] 
-[debug] [2024-04-25T16:26:11.560Z] ----------------------------------------------------------------------
-[debug] [2024-04-25T16:26:11.563Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\julio\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
-[debug] [2024-04-25T16:26:11.564Z] CLI Version:   13.7.3
-[debug] [2024-04-25T16:26:11.565Z] Platform:      win32
-[debug] [2024-04-25T16:26:11.565Z] Node Version:  v18.17.1
-[debug] [2024-04-25T16:26:11.567Z] Time:          Thu Apr 25 2024 13:26:11 GMT-0300 (Horário Padrão de Brasília)
-[debug] [2024-04-25T16:26:11.567Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2024-04-25T16:26:11.720Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-04-25T16:26:11.721Z] > authorizing via signed-in user (jcesardias2022@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  C:\projetosAngular\potifolioJulio
-
-Before we get started, keep in mind:
-
-  * You are currently outside your home directory
-  * You are initializing within an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2024-04-25T16:26:14.598Z] Using project from CLI flag: portfolio-julio
-[debug] [2024-04-25T16:26:14.605Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio [none]
-[debug] [2024-04-25T16:26:16.321Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio 200
-[debug] [2024-04-25T16:26:16.321Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio {"projectId":"portfolio-julio","projectNumber":"77148070893","displayName":"Portfolio Julio","name":"projects/portfolio-julio","resources":{"hostingSite":"portfolio-julio"},"state":"ACTIVE","etag":"1_ed7dddde-871d-49a9-9e54-e6a1acf21267"}
-[info] i  Using project portfolio-julio (Portfolio Julio) 
-[info] 
-=== Hosting Setup
-[debug] [2024-04-25T16:26:16.353Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio [none]
-[debug] [2024-04-25T16:26:16.919Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio 200
-[debug] [2024-04-25T16:26:16.920Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-julio {"projectId":"portfolio-julio","projectNumber":"77148070893","displayName":"Portfolio Julio","name":"projects/portfolio-julio","resources":{"hostingSite":"portfolio-julio"},"state":"ACTIVE","etag":"1_ed7dddde-871d-49a9-9e54-e6a1acf21267"}
+[debug] [2024-04-25T23:50:00.657Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-pessoal-1 [none]
+[debug] [2024-04-25T23:50:01.109Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-pessoal-1 200
+[debug] [2024-04-25T23:50:01.109Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-pessoal-1 {"projectId":"portfolio-pessoal-1","projectNumber":"372155300378","displayName":"Portfolio Pessoal","name":"projects/portfolio-pessoal-1","resources":{"hostingSite":"portfolio-pessoal-1"},"state":"ACTIVE","etag":"1_b96864cb-1639-461d-a2a3-228e3957c0e1"}
 [info] 
 [info] Your public directory is the folder (relative to your project directory) that
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
